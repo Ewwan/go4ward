@@ -1,5 +1,5 @@
 <div>
-    <a href="https://ewwan.github.io/go4ward/"><h1>Go4ward</h1></a>
+    <a href="https://ewwan.github.io/go4ward/" title="Click to visit: Go4ward"><h1>Go4ward</h1></a>
     <wbr />
     <p>The following app allows a user to find information about the Weather Forecast and the Top Attractions in the travel destinations submited through the search form.</p>
 </div>
