@@ -1,5 +1,5 @@
 <div>
-    <a href="https://ewwan.github.io/go4ward/"></a><h1>Go4ward</h1></a>
+    <a href="https://ewwan.github.io/go4ward/"><h1>Go4ward</h1></a>
     <wbr />
     <p>The following app allows a user to find information about the Weather Forecast and the Top Attractions in the travel destinations submited through the search form.</p>
 </div>
@@ -10,7 +10,7 @@
     <p>Next steps will be to use <strong><em>fetch</em></strong> and <strong><em></em>async/await</em></strong> to request information from the <a href="https://developer.foursquare.com/">Foursquare</a> API and <a href="https://www.apixu.com/doc/">APIXU</a> to create a travel website.</p>
 </div>
 <div>
-    <a href="https://ewwan.github.io/go4ward/"><img src="https://i.imgur.com/liSzDnd.png" alt="Go4ward app screenshot" title="travel-go4ward" /></a>
+    <a href="https://ewwan.github.io/go4ward/"><img src="https://i.imgur.com/liSzDnd.png" alt="Go4ward app screenshot" title="Click to visit: Go4ward" /></a>
     <br />
-    <a href="https://ewwan.github.io/go4ward/"><img src="https://i.imgur.com/5mMhh7g.png" alt="Go4ward app screenshot" title="travel site: Go4ward" /></a>
+    <a href="https://ewwan.github.io/go4ward/"><img src="https://i.imgur.com/5mMhh7g.png" alt="Go4ward app screenshot" title="Click to visit: Go4ward" /></a>
 </div>
