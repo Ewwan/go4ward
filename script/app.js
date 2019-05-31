@@ -17,7 +17,7 @@ const $weatherDivs = [$("#weather1"), $("#weather2"), $("#weather3"), $("#weathe
 const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednseday', 'Thursday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
 // Add AJAX functions here:
-const getVenues = () => {
+const getVenues = async () => {
     const city = $input.val();
     const currentDate = () => {
         const today = new Date();
@@ -36,8 +36,16 @@ const getVenues = () => {
     };
 
     const urlToFetch = '' + url + city + '&limit=10' + '&client_id=' + clientID + '&client_secret=' + clientSecret + '&v=' + currentDate();
-    console.log(urlToFetch);
-    return urlToFetch;
+    try {
+        const response = await fetch(urlToFetch);
+        if(response.ok){
+            const jsonResponse = await response.json();
+            const venues = jsonResponse.response.groups[0].items.map(item => item.venue);
+            return venues;
+        }
+    } catch (error) {
+        console.log(error);  
+    }
 };
 
 const getForecast = () => {
